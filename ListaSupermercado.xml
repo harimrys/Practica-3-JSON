@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Supermercado1>
+    <id>1</id>
+    <nombre>Hiperdino</nombre>
+    <direccion>Calle Nueva, 3</direccion>
+    <geolocalizacion>
+        <latitud>28.03362868917384</latitud>
+        <longitud>-15.498488779641917</longitud>
+    </geolocalizacion>
+
+    <productos>
+        <id>Hiperdino1</id>
+        <nombre>Leche Sin Lactosa</nombre>
+        <marca>Dino</marca>
+        <precio>2.50</precio>
+        <cantidad>1 litro</cantidad>
+        <oferta>true</oferta>
+        <vigenciaOferta>
+            <fechaInicio>12/04/2022</fechaInicio>
+            <fechaFin>24/04/2022</fechaFin>
+        </vigenciaOferta>
+        <preciorebajado>1.50</preciorebajado>
+        <habitual>true</habitual>
+        <adquirido>false</adquirido>
+    </productos>
+
+    <productos>
+        <id>Hiperdino2</id>
+        <nombre>Pan</nombre>
+        <marca>panaderia</marca>
+        <precio>1.50</precio>
+        <cantidad>400 gr</cantidad>
+        <oferta>false</oferta>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+    </productos>
+
+    <productos>
+        <id>Hiperdino3</id>
+        <nombre>Cereales Estrellita</nombre>
+        <marca>Nestle</marca>
+        <precio>3.80</precio>
+        <cantidad>500 gr</cantidad>
+        <oferta>false</oferta>
+        <habitual>false</habitual>
+        <adquirido>false</adquirido>
+    </productos>
+
+    <productos>
+        <id>Hiperdino4</id>
+        <nombre>Cáfe</nombre>
+        <marca>Dino</marca>
+        <precio>1.20</precio>
+        <cantidad>200 gr</cantidad>
+        <oferta>true</oferta>
+        <vigenciaOferta>
+            <fechaInicio>25/04/2022</fechaInicio>
+            <fechaFin>10/05/2022</fechaFin>
+        </vigenciaOferta>
+        <preciorebajado>0.80</preciorebajado>
+        <habitual>true</habitual>
+        <adquirido>true</adquirido>
+    </productos>
+
+    <productos>
+        <id>Hiperdino5</id>
+        <nombre>Aceite de oliva</nombre>
+        <marca>Dino</marca>
+        <precio>3.20</precio>
+        <cantidad>5 litros</cantidad>
+        <oferta>false</oferta>
+        <habitual>true</habitual>
+        <adquirido>false</adquirido>
+    </productos>
+</Supermercado1>

@@ -1,0 +1,316 @@
+{
+    "Supermercado1": [ 
+        {
+        "id": 1,
+        "nombre": "Hiperdino",
+        "direccion": "Calle Nueva, 3",
+        "geolocalizacion":{
+            "lat": "28.03362868917384",
+            "lng": "-15.498488779641917"
+        }
+        },
+    {
+        "productos": [
+            {
+                "id": "Hiperdino1",
+                "nombre": "Leche Sin Lactosa",
+                "marca": "Dino",
+                "precio": "2.50",
+                "cantidad": "1 litro",
+                "oferta": true,
+                "vigenciaOferta": [
+                    {
+                        "fechaInicio": "2022-04-12",
+                        "fechaFin": "2022-04-24"
+                    }
+                ],
+                "preciorebajado": "1.50",
+                "habitual": true,
+                "adquirido": false  
+            },
+           {
+                "id": "hiperdino2",
+                "nombre": "Pan",
+                "marca":"panaderia",
+                "precio": "1.50",
+                "cantidad": "400 gr",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "hiperdino3",
+                "nombre": "Cereales Estrellita",
+                "marca":"Nestle",
+                "precio": "3.80",
+                "cantidad": "500 gr",
+                "oferta": false,
+                "habitual":false,
+                "adquirido": false
+            },
+            {
+                "id": "hiperdino4",
+                "nombre": "Café",
+                "marca":"Dino",
+                "precio": "1.20",
+                "cantidad": "200 gr",
+                "oferta": true,
+                "vigenciaOferta": [
+                    {
+                        "fechaInicio": "2022-04-25",
+                        "fechaFin": "2022-05-10"
+                    }
+                ],
+                "preciorebajado": "0.80",
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "hiperdino5",
+                "nombre": "Aceite de oliva",
+                "marca":"Dino",
+                "precio": "3.20",
+                "cantidad": "5 litros",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": false
+            }
+        ]
+    }
+],
+    "Supermercado2": [
+        {
+        "id": 2,
+        "nombre": "Mercadona",
+        "direccion": "Calle Ignacio Ellacuría Beascoechea, 2",
+        "geolocalizacion":{
+            "lat": "28.001196885685",
+            "lng": "-15.390265661117217"
+        }
+        },
+    {
+        "productos": [
+            {
+                "id": "mercadona1",
+                "nombre": "Galletas chocolate",
+                "marca": "Hacendado",
+                "precio": "1.00",
+                "cantidad": "500 gr",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": false  
+            },
+           {
+                "id": "mercadona2",
+                "nombre": "Yogurt sabores",
+                "marca":"Hacendado",
+                "precio": "1.50",
+                "cantidad": "pack 4 x 125 gr",
+                "oferta": true,
+                "vigenciaOferta": [
+                    {
+                        "fechaInicio": "2022-04-10",
+                        "fechaFin": "2022-04-15"
+                    }
+                ],
+                "preciorebajado": "1.00",
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "mercadona3",
+                "nombre": "Cereales desayuno",
+                "marca":"Weetabix",
+                "precio": "2.80",
+                "cantidad": "600 gr",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "mercadona4",
+                "nombre": "Pechuga de pollo",
+                "marca":"Hacendado",
+                "precio": "6.78",
+                "cantidad": "1 kg",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": false 
+            },
+            {
+                "id": "mercadona5",
+                "nombre": "Arroz",
+                "marca":"Hacendado",
+                "precio": "0.70",
+                "cantidad": "1 kg",
+                "oferta": false,
+                "habitual": false,
+                "adquirido": false
+            }
+        ]
+    }
+],
+    "Supermercado3": [
+        {
+        "id": 3,
+        "nombre": "Alcampo",
+        "direccion": "GC-1, Km. 8",
+        "geolocalizacion":{
+            "lat": "28.017619945520345",
+            "lng": "-15.387095356383437" 
+        }
+        },
+    {
+        "productos": [
+            {
+                "id": "alcampo1",
+                "nombre": "Aceitunas",
+                "marca": "Auchan",
+                "precio": "1.70",
+                "cantidad": "125 gr",
+                "oferta": true,
+                "vigenciaOferta": [
+                    {
+                        "fechaInicio": "2022-04-30",
+                        "fechaFin": "2022-05-20"
+                    }
+                ],
+                "preciorebajado": "1.20",
+                "habitual": true,
+                "adquirido": false  
+            },
+           {
+                "id": "alcampo2",
+                "nombre": "Agua",
+                "marca":"Nestle",
+                "precio": "0.75",
+                "cantidad": "1.5 litros",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "alcampo3",
+                "nombre": "Queso tierno",
+                "marca":"El Caserio",
+                "precio": "2.10",
+                "cantidad": "350 gr",
+                "oferta": true,
+                "vigenciaOferta": [
+                    {
+                        "fechaInicio": "2022-04-10",
+                        "fechaFin": "2022-04-15"
+                    }
+                ],
+                "preciorebajado": "1.80",
+                "habitual": false,
+                "adquirido": true
+            },
+            {
+                "id": "alcampo4",
+                "nombre": "Aguacates",
+                "marca":"El huerto de Paca",
+                "precio": "2.50",
+                "cantidad": "500 gr",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": false
+            },
+            {
+                "id": "alcampo5",
+                "nombre": "Pechuga de pavo",
+                "marca":"Auchan",
+                "precio": "1.24",
+                "cantidad": "200 gr",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": false
+            }
+        ]
+    }
+],
+    "Supermercado4": [
+        {
+        "id": 4,
+        "nombre": "Lidl",
+        "direccion": "Calle Ignacio Ellacuría Beascoechea, 3",
+        "geolocalizacion":{
+            "lat": "28.00271253815601",
+            "lng": "-15.393012242925385"
+        }
+        },
+    {
+        "productos": [
+            {
+                "id": "lidl1",
+                "nombre": "Totilla con espinacas",
+                "marca":"Huertas Paqui",
+                "precio": "0.99",
+                "cantidad": "1 unidad",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": false  
+            },
+           {
+                "id": "lidl2",
+                "nombre": "Palmeritas",
+                "marca":"La Cestera",
+                "precio": "1.50",
+                "cantidad": "250 gr",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "lidl3",
+                "nombre": "Filete de salmón",
+                "marca":"pescanova",
+                "precio": "6.80",
+                "cantidad": "525 gr",
+                "oferta": true,
+                "vigenciaOferta": [
+                    {
+                        "fechaInicio": "2022-04-10",
+                        "fechaFin": "2022-04-15"
+                    }
+                ],
+                "preciorebajado": "4.80",
+                "habitual": true,
+                "adquirido": false
+            },
+            {
+                "id": "lidl4",
+                "nombre": "Yogurt Griego",
+                "marca":"Milbona",
+                "precio": "2.00",
+                "cantidad": "1 litro",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": true
+            },
+            {
+                "id": "lidl5",
+                "nombre": "Huevos",
+                "marca":"Huertas Paqui",
+                "precio": "1.70",
+                "cantidad": "pack de 12",
+                "oferta": false,
+                "habitual": true,
+                "adquirido": true
+            }
+        ]
+    }
+ ]
+}
+
+           
+        
+
+
+    
+
+       
+
+
+
+    
